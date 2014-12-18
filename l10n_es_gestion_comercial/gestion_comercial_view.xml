@@ -249,7 +249,7 @@
         <field name="domain">['&amp;','&amp;',('invoice','=',False),('indirect_payment','=',False),('account_id.type','in',['receivable','payable'])]</field>
     </record>
 
-	<menuitem action="action_check_paid" id="menu_check_paid" parent="account_payment.menu_main_payment" sequence="50" />
+<!-- 	<menuitem action="action_check_paid" id="menu_check_paid" parent="account_payment.menu_main_payment" sequence="50" /> -->
 
 	</data>	
 </openerp>

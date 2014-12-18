@@ -2,8 +2,8 @@
 <openerp>
     <data>
 
-        <!--menuitem id="menu_treasury_root" name="Tesoreria"/-->
-        <menuitem id="menu_treasury_check" name="Documentos" parent="account_payment.menu_main_payment" sequence="75"/>
+<!--         menuitem id="menu_treasury_root" name="Tesoreria"/ -->
+<!--         <menuitem id="menu_treasury_check" name="Documentos" parent="account_payment.menu_main_payment" sequence="75"/> -->
 
         <!--
         =======================
@@ -66,12 +66,12 @@
             <field name="view_type">form</field>
             <field name="view_mode">tree,form</field>
         </record>
-        <menuitem
-            action="action_issued_check"
-            id="menu_treasury_issued_check"
-            name="Documentos emitidos"
-            parent="menu_treasury_check"
-        />
+<!--         <menuitem -->
+<!--             action="action_issued_check" -->
+<!--             id="menu_treasury_issued_check" -->
+<!--             name="Documentos emitidos" -->
+<!--             parent="menu_treasury_check" -->
+<!--         /> -->
 
         <!--
             Third Checks
@@ -168,12 +168,12 @@
             <field name="view_type">form</field>
             <field name="view_mode">tree,form</field>
         </record>
-        <menuitem
-            action="action_third_check"
-            id="menu_treasury_third_check"
-            name="Documentos de Terceros"
-            parent="menu_treasury_check"
-        />
+<!--         <menuitem -->
+<!--             action="action_third_check" -->
+<!--             id="menu_treasury_third_check" -->
+<!--             name="Documentos de Terceros" -->
+<!--             parent="menu_treasury_check" -->
+<!--         /> -->
 
     </data>
 </openerp>

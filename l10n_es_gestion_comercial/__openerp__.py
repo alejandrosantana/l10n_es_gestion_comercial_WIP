@@ -55,6 +55,7 @@
         "gestion_comercial_journals.xml",
         "gestion_comercial_menu.xml",
         #"payment_order_workflow.xml",
+        'account_invoice_view.xml',
         
     ],
     "active": False,
